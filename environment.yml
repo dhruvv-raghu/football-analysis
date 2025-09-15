@@ -1,0 +1,13 @@
+name: football-analysis
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - ultralytics
+    - supervision
+    - opencv-python
+    - numpy
+    - matplotlib
+    - pandas
